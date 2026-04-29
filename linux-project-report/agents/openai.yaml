@@ -1,0 +1,7 @@
+interface:
+  display_name: "Linux 项目报告"
+  short_description: "按教师模板或 PDF 指导书生成中文 Linux 项目报告，支持信息补全清单。"
+  default_prompt: "Use $linux-project-report to draft a Chinese Linux project report from my teacher PDF project guide, task requirements, template notes, environment details, commands, and screenshots. Prioritize the guide when present; if no guide is available, proceed with the default workflow and sound judgment. Identify personalized example values such as names or usernames before using them."
+
+policy:
+  allow_implicit_invocation: true
