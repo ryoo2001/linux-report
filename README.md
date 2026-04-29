@@ -95,13 +95,7 @@ tool_timeout_sec = 120
 - 不要提交真实的 `.codex/config.toml`。
 - 不要提交 SSH 密码、私钥、token、真实公网 IP 或敏感内网拓扑。
 - 不要把生成报告、截图、日志等临时输出直接提交，除非确认其中没有个人信息和敏感信息。
-- 当前 `.gitignore` 已忽略：
 
-  ```text
-  .playwright/
-  output/
-  .codex/config.toml
-  ```
 
 ## 报告工作流建议
 
