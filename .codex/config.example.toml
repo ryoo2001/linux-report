@@ -1,0 +1,67 @@
+[mcp_servers.practice01]
+command = "npx"
+args = [
+  "-y",
+  "ssh-mcp",
+  "--",
+  "--host=<SSH_HOST_1>",
+  "--port=22",
+  "--user=<SSH_USER>",
+  "--password=<SSH_PASSWORD>",
+  "--disableSudo",
+  "--timeout=120000",
+  "--maxChars=none",
+]
+startup_timeout_sec = 20
+tool_timeout_sec = 120
+
+[mcp_servers.practice02]
+command = "npx"
+args = [
+  "-y",
+  "ssh-mcp",
+  "--",
+  "--host=<SSH_HOST_2>",
+  "--port=22",
+  "--user=<SSH_USER>",
+  "--password=<SSH_PASSWORD>",
+  "--disableSudo",
+  "--timeout=120000",
+  "--maxChars=none",
+]
+startup_timeout_sec = 20
+tool_timeout_sec = 120
+
+[mcp_servers.practice03]
+command = "npx"
+args = [
+  "-y",
+  "ssh-mcp",
+  "--",
+  "--host=<SSH_HOST_3>",
+  "--port=22",
+  "--user=<SSH_USER>",
+  "--password=<SSH_PASSWORD>",
+  "--disableSudo",
+  "--timeout=120000",
+  "--maxChars=none",
+]
+startup_timeout_sec = 20
+tool_timeout_sec = 120
+
+[mcp_servers.practice04]
+command = "npx"
+args = [
+  "-y",
+  "ssh-mcp",
+  "--",
+  "--host=<SSH_HOST_4>",
+  "--port=22",
+  "--user=<SSH_USER>",
+  "--password=<SSH_PASSWORD>",
+  "--disableSudo",
+  "--timeout=120000",
+  "--maxChars=none",
+]
+startup_timeout_sec = 20
+tool_timeout_sec = 120
